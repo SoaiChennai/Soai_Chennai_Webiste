@@ -4,6 +4,10 @@
 
 
 a,
+.text-primary,
+.text-primary_h:hover,
+.text-primary_b:before,
+.text-primary_a:after,
 .list > li > a:hover,
 .list-mark-1 li:before,
 .pager li > a:hover,
@@ -26,15 +30,11 @@ a,
 .footer-list__link:hover,
 .list_icon_color-primary li:before {color: #000000;}
 
-.text-primary,
-.text-primary_h:hover,
-.text-primary_b:before,
-.text-primary_a:after
-{
-    color: #ccc;
-}
-.bg-primary,
 
+.bg-primary,
+.bg-primary_h:hover,
+.bg-primary_b:before,
+.bg-primary_a:after,
 .btn:after,
 .pagination_primary > .active > a,
 .pagination_primary > .active > span,
@@ -55,13 +55,9 @@ a,
 .b-pricing.active .b-pricing-price,
 .b-team .social-net__item:hover,
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
-/* .bx-wrapper .bx-pager.bx-default-pager a.active, */
+.bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {background-color: #383838;}
-.bx-wrapper .bx-pager.bx-default-pager a.active,.bx-wrapper .bx-pager.bx-default-pager a:hover,.bx-wrapper .bx-pager.bx-default-pager a:focus,.forms__label-radio-2:before,.bg-primary_h:hover,.bg-primary_b:before,
-.bg-primary_a:after
-{
-    background-color: white;
-}
+
 
 .border_prim,
 .border_prim_h:hover,

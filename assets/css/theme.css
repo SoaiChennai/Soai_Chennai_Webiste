@@ -970,7 +970,7 @@ input:-ms-input-placeholder {
 
 .section-type-1 {
   padding-top: 120px;
-  padding-bottom: 53px; 
+  padding-bottom: 53px;
 }
 
 .section-type-1__inner {
@@ -3387,7 +3387,7 @@ input:-ms-input-placeholder {
   background-color: #1f1f1f;
 }
 
-.footer:before {
+/* .footer:before {
   position: absolute;
   top: -20px;
   left: 50%;
@@ -3397,15 +3397,34 @@ input:-ms-input-placeholder {
   border-radius: 50%;
   background-color: #1f1f1f;
   content: '';
-}
+} */
 
 .footer__main {
   padding-bottom: 77px;
 }
 
+.soical-icons a
+{
+  border: 1px solid white;
+
+  border-radius:4px;
+  margin-left: 5px;
+  height: 35px;
+    width: 35px;
+    display: inline-block;
+    line-height: 39px;
+
+}
+
+
+.soical-icons i
+{
+  color: white;
+  font-size: 20px;
+}
 .footer__logo {
   display: inline-block;
-  margin-bottom: 53px;
+  margin-bottom: 10px;
 }
 
 .footer__contact {

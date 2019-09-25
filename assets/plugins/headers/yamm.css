@@ -77,8 +77,8 @@
 	text-decoration: none;
 }
 .yamm.nav .open>a, .yamm.nav .open>a:focus, .yamm.nav .open>a:hover, yamm.nav li.open a {
-	/* background-color: #337ab7;
-	border-color: #337ab7; */
+	background-color: #337ab7;
+	border-color: #337ab7;
 	color: #fff;
 }
 .yamm .dropdown-menu li {

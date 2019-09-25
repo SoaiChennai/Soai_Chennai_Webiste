@@ -273,10 +273,6 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
 .header-navibox-4-right .header-navibox-4 {
   float: right !important;
 }
-.header-navibox-3-right .header-navibox-3
-{
-  display: none;
-}
 .header-navibox-1-middle .header-navibox-1,
 .header-navibox-2-middle .header-navibox-2,
 .header-navibox-3-middle .header-navibox-3,
