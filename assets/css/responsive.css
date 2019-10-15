@@ -190,10 +190,14 @@
   .grid-item_wx2 {
     width: 100%;
     float: none;
+  } .header-navibox-3
+  {
+    display: none
   }
   .navbar-nav {
     margin: 0;
   }
+ 
   .header .social-net {
     text-align: center;
   }
