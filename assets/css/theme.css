@@ -3943,3 +3943,29 @@ input:-ms-input-placeholder {
   color: #fff;
   z-index: 100;
 }
+
+.chatmodal
+{
+  position: fixed;
+  right: 5px;
+  bottom: 45px;
+  transition: all 0.25s;
+  z-index: 99;
+}
+
+.chatimg
+{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 9999;
+  border-radius: 50%;
+}
+.chatimg img
+{
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}

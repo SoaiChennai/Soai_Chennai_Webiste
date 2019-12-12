@@ -509,7 +509,20 @@
         </div>
       </div>
     </div>
-
+    <div  class="chatwrapper">
+      <div class="chatimg" onclick="myFunction()">
+        <img src="src/img/chatbot.png"/>
+      </div>
+      <iframe
+      allow="microphone;"
+      class="chatmodal"
+      style="display: none;"
+      id="myDIV"
+      width="350"
+      height="430"
+      src="https://console.dialogflow.com/api-client/demo/embedded/9bdf43a9-f182-4986-91a3-9e8a1f05cf16">
+     </iframe>
+    </div>
     
     <section id="Team"class="section-team area-bg area-bg_dark parallax">
       <div class="area-bg__inner">
@@ -620,6 +633,7 @@
         </div>
       </div>
     </section>
+
     <!-- <div class="section-default">
       <div class="container">
         <div class="row">
@@ -696,12 +710,6 @@
             </div>
 
           <!-- end b-brands-->
-
-
-
-
-
-
           </div>
         </div>
       </div>
@@ -925,6 +933,16 @@
   <script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
   <!-- Main slider-->
   <script src="assets/plugins/slider-pro/jquery.sliderPro.min.js"></script>
+  <script>
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
 </body>
 
 </html>
